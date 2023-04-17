@@ -12,14 +12,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
     padding-bottom: 60px;
-    background-image: url('BackG.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    background: #000000;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #5d5d5d, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #434343, #000000);
 }
 .form-container form{
     padding: 30px;
@@ -36,6 +34,7 @@
     margin-bottom: 10px;
     color: #ffffff;
 }
+
 .form-container form input{
     width: 97%;
     padding: 17px;
@@ -97,18 +96,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
     padding-bottom: 60px;
-     background-image: url('BackG.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-color: black;
+    font-family: 'Ubuntu', sans-serif;
+    background: #000000;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #5d5d5d, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to left, #434343, #000000);
 }
+
 .form-producer form{
     padding: 30px;
-    background: #fff;
+    background: #00000063;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
     text-align: center;
@@ -119,8 +117,9 @@
     font-size: 30px;
     text-transform: uppercase;
     margin-bottom: 10px;
-    color: #333;
+    color: #ffffff;
 }
+
 .form-producer form input{
     width: 97%;
     padding: 17px;
@@ -146,7 +145,7 @@
 .form-producer form p{
     margin-top: 20px;
     font-size: 20px;
-    color: #333;
+    color: #ffffff;
 }
 
 .form-producer form p a{
