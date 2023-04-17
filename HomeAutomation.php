@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<h2>Home Automation</h2>
+	<h2>Home Automation System</h2>
 	<div class="wrapper">
 		<div class="box box-left">
 			<h1>Consumer Login</h1>
