@@ -1,0 +1,91 @@
+/* Set some global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('Home.jpg');
+    background-size: 1700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: black;
+      
+}
+
+/* Style the wrapper div */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the boxes */
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+    width: 400px;
+    height: 300px;
+    background-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 8px 15px rgba(0, 44, 73, 0.582);
+}
+
+.box-left {
+    margin-right: 85px;
+}
+
+.box-right {
+    margin-left: 85px;
+}
+
+
+/* Style the headings */
+h1 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #90cdff;
+    text-align: center;
+}
+
+/* Style the "Home Automation " heading */
+h2 {
+    position: relative;
+    top: 50px;
+    margin-bottom: -100px;
+    font-size: 60px;
+    color:  #ffffff;
+    text-shadow: 2px 2px 4px #0079ac;
+    text-align: start;
+    font-weight: bold;
+}
+
+/* Style the buttons */
+.button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+.button-left {
+    background-color: #2196F3;
+}
+
+.button-right {
+    background-color: #F44336;
+}
+
+/* Style the buttons on hover */
+.button:hover {
+    opacity: 0.8;
+}
